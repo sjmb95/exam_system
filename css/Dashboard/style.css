@@ -1,0 +1,129 @@
+.signup-w3ls{
+	width: 50%;
+	margin: 70px 25% 80%;
+	padding: 0;
+	display: table;
+	position:relative;
+}
+
+.signup-agile1{
+	width: 100%;
+	float: center;
+}
+
+.signup-w3ls.signuo-agile.form-control{
+	margin-bottom: 20px;
+}
+
+label.header{
+	font-size: 16px;
+	font-weight: 500;
+	width:215px;
+	color:grey;
+	margin-right:10px;
+	text-align: justify;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	display: inline-block;
+	font-family: 'Nunito', sans-serif;
+}
+
+input#image,input#store_name,input#store_type,input#owner_type,input#website,input#contact_number,input#contact_email
+{
+	padding: 0 40px;
+	width: 40%;
+	height: 55px;
+	border:1px solid #dadada;
+	color:grey;
+	text-align: justify;
+	outline: none;
+	letter-spacing: 1px;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: 'Muli', sans-serif;
+	border-radius: 30px;
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	-o-border-radius:30px;
+	-ms-border-radius:30px;
+}
+
+.body_dash
+{
+	width:60%;
+}
+
+$background: #A4D7ED;
+$background2: #DEC5E3;
+$day: #DDF8E8;
+$date: #DDF8E8;
+$font: #324376;
+$border: #A6EDE2;
+
+body{
+  background: $background; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, $background, $background2); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right, $background, $background2); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right, $background, $background2); /*Fx 3.6-15*/
+  background: linear-gradient(to right, $background, $background2); /*Standard*/
+  
+  color: $font;
+  font-family: 'Comfortaa', cursive;
+}
+.container{
+  height: 250px;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  
+  justify-content: space-around;
+  padding: 10% 0 0 0;
+  margin-top: 25px; 
+
+}
+#day, #date{
+  text-align: center; 
+  box-sizing: border-box;
+  height: 250px;
+  width: 230px;
+  border-radius: 10%;
+  border: 10px solid $border;
+  box-shadow: 
+   2px 2px 2px $font,
+   -2px 2px 2px $font,
+   -2px -2px 2px $font,
+   2px -2px 2px $font
+   ;
+   margin-top: 5%; 
+}
+#day{ 
+  background: $day;
+  font-size: 20px;
+  font-weight: 900;
+  padding-top: 80px; 
+}
+#day span{
+  display: block;
+  font-weight: 700;
+  font-size: 30px;
+}
+#date{  
+  padding-top: 60px;
+  background: $date;
+  font-size: 30px;
+  font-weight: 900; 
+}
+#date span{  
+  display: block;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 45px;
+  padding-bottom: 15px;
+}
